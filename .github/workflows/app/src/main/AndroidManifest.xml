@@ -10,18 +10,7 @@
         android:label="BBBlabs"
         android:theme="@android:style/Theme.Material.NoActionBar">
 
-        <meta-data android:name="com.oculus.supportedDevices" android:value="quest|quest2|questpro|quest3|quest3s" />
-
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:resizeableActivity="true"
-            android:configChanges="density|keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode">
-            <layout
-                android:defaultWidth="900dp"
-                android:defaultHeight="700dp"
-                android:minWidth="600dp"
-                android:minHeight="500dp" />
+        <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
